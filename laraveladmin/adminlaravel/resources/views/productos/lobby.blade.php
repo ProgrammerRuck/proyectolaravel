@@ -15,7 +15,7 @@
                         <p class="card-text">{{ $producto->descripcion }}</p>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
-                                <strong>Precio:</strong> ${{ number_format($producto->precio, 2) }}
+                                <strong>Precio:</strong> ${{ number_format($producto->precio) }}
                             </li>
                             <li class="list-group-item">
                                 <strong>Stock:</strong> {{ $producto->stock }}
@@ -24,6 +24,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-success btn-block">Comprar</a>
+                        <a href="#" class="btn btn-danger btn-block">Borrar</a>
                     </div>
                 </div>
             </div>

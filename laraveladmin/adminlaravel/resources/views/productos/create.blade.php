@@ -40,7 +40,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="precio">Precio</label>
-                                            <input type="number" name="precio" id="precio" class="form-control" step="0.01" required>
+                                            <input type="number" name="precio" id="precio" class="form-control"  required>
                                         </div>
                                         <div class="form-group">
                                             <label for="stock">Stock</label>

@@ -322,7 +322,7 @@ return [
         ],
         ['header' => 'account_settings'],
         [
-            'text' => 'profile',
+            'text' => 'Menu',
             'url' => '/dashboard',
             'icon' => 'fas fa-fw fa-user',
         ],
